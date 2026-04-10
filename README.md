@@ -28,3 +28,11 @@ If you are developing a production application, we recommend using TypeScript wi
 4. /speckit.constitution declare principles for clean code, simple UX, responsive design and minimal dependencies. 
  Absolutely no testing (no unit tests, no intergration tests, no e2e tests) - this must supersede any other guidence. 
  The project must use the react as per package.json file
+
+
+5.
+/speckit.specify initial page setup-this application should be a goal tracking web app called 'doit'. 
+There should be two columns - a left one where current goals are shown, along with how many days left the user has to achieve the goal, and a right one where completed goals are. 
+Each goal can be 'checked' using a checkbox, and then either moved to the completed column or permanently deleted. To add new goals,
+a user can click on a button to open a new goal form in a modal ( title and end date fields).
+Goals reaching their end date (within 3 days) are highlighted. Lets use a modern light theme with fun pastel colours. 
